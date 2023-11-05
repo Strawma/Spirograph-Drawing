@@ -1,12 +1,14 @@
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Spirograph class.
+ * Combines multiple Hypocloid objects to create a Spirograph.
+ */
 public class Spirograph extends JPanel {
 
   private Hypocloid[] hypocloids = {
-    new Hypocloid(4, 1, 4, Color.RED),
-    //new Hypocloid(144, 96, 80, Color.GREEN),
-    //new Hypocloid(144, 96, 80, Color.BLUE)
+    new Hypocloid(144, 96, 80, Color.RED, 2),
   };
 
   public Spirograph() {
@@ -22,14 +24,15 @@ public class Spirograph extends JPanel {
 
     g.translate(width / 2, height / 2); // Move to the center
 
-
-    for (double t = 0; t <= 100; t += 0.01) {
-      for (Hypocloid hypocloid : hypocloids) {
-        hypocloid.drawInLoop(g, t);
-      }
-    }
+    drawHypocloidsSeparate(g);
 
     g.translate(-width / 2, -height / 2); // Move back to the original position
+  }
+
+  private void drawHypocloidsSeparate(Graphics g) {
+    for (Hypocloid hypocloid : hypocloids) {
+      hypocloid.drawSeparate(g);
+    }
   }
 
   public static void main(String[] args) {
