@@ -4,11 +4,37 @@ import java.awt.*;
 /**
  * Spirograph class.
  * Combines multiple Hypocloid objects to create a Spirograph.
+ * HOLY SHIT I THINK ITS WORKING
  */
 public class Spirograph extends JPanel {
 
   private Hypocloid[] hypocloids = {
-    new Hypocloid(144, 96, 80, Color.RED, 2),
+//    new Hypocloid(105, 80, 1, Color.CYAN, 4),
+//    new Hypocloid(105, 80, 6, Color.RED, 4),
+//    new Hypocloid(105, 80, 11, Color.ORANGE, 4),
+//    new Hypocloid(105, 80, 16, Color.RED, 4),
+//    new Hypocloid(105, 80, 21, Color.CYAN, 4),
+
+      new Hypocloid(105, 30, 1, 7, Color.MAGENTA, 4),
+      new Hypocloid(105, 30, 2, 7, Color.MAGENTA, 4),
+      new Hypocloid(105, 30, 3, 7, Color.MAGENTA, 4),
+      new Hypocloid(105, 30, 4, 7, Color.MAGENTA, 4),
+      new Hypocloid(105, 30, 5, 7, Color.MAGENTA, 4),
+      new Hypocloid(105, 45, 1, 16, Color.ORANGE, 4),
+      new Hypocloid(105, 45, 2,16, Color.ORANGE, 4),
+      new Hypocloid(105, 45, 3, 16, Color.ORANGE, 4),
+      new Hypocloid(105, 45, 4, 16, Color.ORANGE, 4),
+      new Hypocloid(105, 45, 5, 16, Color.ORANGE, 4),
+      new Hypocloid(105, 60, 1, 23, Color.RED, 4),
+      new Hypocloid(105, 60, 2, 23, Color.RED, 4),
+      new Hypocloid(105, 60, 3, 23, Color.RED, 4),
+      new Hypocloid(105, 60, 4, 23, Color.RED, 4),
+      new Hypocloid(105, 60, 5, 23, Color.RED, 4),
+
+//      new Hypocloid(105, 24, 5, Color.ORANGE, 4),
+//      new Hypocloid(105, 80, 13, Color.RED, 4),
+//      new Hypocloid(105, 80, 14, Color.RED, 4),
+//      new Hypocloid(105, 80, 15, Color.RED, 4),
   };
 
   public Spirograph() {
