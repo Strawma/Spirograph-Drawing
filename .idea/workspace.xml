@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5066cc3c-e7f7-4925-b0a8-b1439ca62a8c" name="Changes" comment="(maybe) actually now converts pen hole number to a valid radius offset">
+    <list default="true" id="5066cc3c-e7f7-4925-b0a8-b1439ca62a8c" name="Changes" comment="random bullcrap that makes it work better">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hypocloid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hypocloid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spirograph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Spirograph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <workItem from="1699126439696" duration="3646000" />
       <workItem from="1699132345237" duration="613000" />
       <workItem from="1699209568566" duration="4912000" />
-      <workItem from="1699216745134" duration="5321000" />
+      <workItem from="1699216745134" duration="6019000" />
     </task>
     <task id="LOCAL-00001" summary="Created project">
       <option name="closed" value="true" />
@@ -122,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699217278666</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="random bullcrap that makes it work better">
+      <option name="closed" value="true" />
+      <created>1699222351585</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699222351585</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +150,8 @@
     <MESSAGE value="Basic implementation" />
     <MESSAGE value="Finds min rotations needed to draw hypocloid" />
     <MESSAGE value="(maybe) actually now converts pen hole number to a valid radius offset" />
-    <option name="LAST_COMMIT_MESSAGE" value="(maybe) actually now converts pen hole number to a valid radius offset" />
+    <MESSAGE value="random bullcrap that makes it work better" />
+    <option name="LAST_COMMIT_MESSAGE" value="random bullcrap that makes it work better" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
