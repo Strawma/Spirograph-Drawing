@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5066cc3c-e7f7-4925-b0a8-b1439ca62a8c" name="Changes" comment="random bullcrap that makes it work better">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5066cc3c-e7f7-4925-b0a8-b1439ca62a8c" name="Changes" comment="added readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,6 +85,7 @@
       <workItem from="1699132345237" duration="613000" />
       <workItem from="1699209568566" duration="4912000" />
       <workItem from="1699216745134" duration="6019000" />
+      <workItem from="1699308971906" duration="816000" />
     </task>
     <task id="LOCAL-00001" summary="Created project">
       <option name="closed" value="true" />
@@ -128,7 +127,23 @@
       <option name="project" value="LOCAL" />
       <updated>1699222351585</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="random bullcrap that makes it work better">
+      <option name="closed" value="true" />
+      <created>1699311688427</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699311688427</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added readme">
+      <option name="closed" value="true" />
+      <created>1699311724581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699311724581</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +166,8 @@
     <MESSAGE value="Finds min rotations needed to draw hypocloid" />
     <MESSAGE value="(maybe) actually now converts pen hole number to a valid radius offset" />
     <MESSAGE value="random bullcrap that makes it work better" />
-    <option name="LAST_COMMIT_MESSAGE" value="random bullcrap that makes it work better" />
+    <MESSAGE value="added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readme" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
